@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="#" type="image/x-icon">
     <link rel="stylesheet" href="./css/reset.css">
@@ -20,42 +23,40 @@
         </video>
     </div>
     <header class="header">
-        <picture>
-            <img class="logo" src="./assets/imagens/logo.png" alt="Logo">
-        </picture>
-        <nav class="naveg">
-            <ul class="ul-nav">
-                <li class="li-nav"><a href="#">Home</a></li>
-                <li class="li-nav"><a href="#">Sobre mim</a></li>
-                <li class="li-nav"><a href="#">Skills</a></li>
+        <a>
+            <img class="logo" src="./assets/imagens/logo.png" alt="logo" />
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Skills</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container-main">
-        <div class="container-info">
-            <p class="presentation">
-                Olá, meu nome é Isac</br>
-                Desenvolvedor Frontend
-            </p>
-            <figure class="photo-container">
-                <img class="figure-main" src="./assets/imagens/coder.gif" alt="Foto de perfil">
-            </figure>
-        </div>
+        <div class="container">
+            <h1 class="text">Olá, meu nome é Isac</h1>
+            <p class="text">Frontend developer</p>
 
-        <div cl.buttonass="button-container">
             <button class="button">Donwload CV</button>
         </div>
+
+        <figure class="photo-container">
+            <img class="figure-main" src="./assets/imagens/coder.gif" alt="Foto de perfil">
+        </figure>
     </main>
 
     <footer class="footer">
-
+        <i class="fab fa-github"></i>        
+        <i class="fab fa-linkedin"></i>    
     </footer>
 
-    <!-- 1. colocar o texto "presentation" e o butão "download cv" na mesma div, para deixa-los mais próximos.
+    <!-- 1. colocar o texto "presentation" e o butão "download cv" na mesma div, para deixa-los mais próximos. ok
     2. Adicionar links de redes sociais. provavelmente em um aside.
     3. fazer botão para projetos.
-    4. Revisar e melhorar css-->
+    4. Revisar e melhorar css ok--> 
 
 </body>
 
